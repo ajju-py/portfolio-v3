@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg5)"/>
+
+  <rect x="50" y="45" width="700" height="390" rx="12" fill="#09090b" stroke="#3f3f46" stroke-width="2"/>
+  <rect x="50" y="45" width="700" height="38" rx="12" fill="#18181b"/>
+  <circle cx="75" cy="64" r="6" fill="#ef4444"/>
+  <circle cx="95" cy="64" r="6" fill="#f59e0b"/>
+  <circle cx="115" cy="64" r="6" fill="#10b981"/>
+  <text x="400" y="69" text-anchor="middle" fill="#a1a1aa" font-family="monospace" font-size="13">esp32-monitor: ~/wifi-packet-analysis</text>
+
+  <g font-family="Consolas, monospace" font-size="13" fill="#e4e4e7">
+    <text x="80" y="120" fill="#a855f7">[ESP32-HARDWARE-LAB] 802.11 Frame Analyzer Initialized...</text>
+    <text x="80" y="145" fill="#f43f5e">[FRAME-INSPECT] Target BSSID: [CONTROLLED_LAB_AP] Channel: 6 RSSI: -42dBm</text>
+    <text x="80" y="170" fill="#fbbf24">[PROTOCOL-ANALYZE] 802.11 De-authentication Frame Pattern Detected</text>
+    <text x="80" y="195" fill="#a1a1aa">  Type: Management | Subtype: 0x000c (Deauth) | Reason Code: 7</text>
+    
+    <text x="80" y="235" fill="#38bdf8">[DEFENSIVE-LEARNING] Wireshark PCAP Packet Trace &amp; Traffic Inspection:</text>
+    <text x="100" y="260" fill="#e4e4e7">• Unprotected 802.11w Management Frames allow spoofed dissociation</text>
+    <text x="100" y="285" fill="#e4e4e7">• Documented DoS behavior in isolated, non-production testbed</text>
+    <text x="100" y="310" fill="#10b981">• Proposed Defense: WPA3 Protected Management Frames (PMF / 802.11w)</text>
+
+    <text x="80" y="360" fill="#22c55e">✓ Academic &amp; Defensive Networking Research (ESP32 Embedded Systems)</text>
+    <text x="80" y="385" fill="#71717a">Strictly educational lab analysis. No public network disruption.</text>
+  </g>
+
+  <!-- Hardware Badge -->
+  <rect x="530" y="105" width="190" height="42" rx="8" fill="#18181b" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="625" y="131" text-anchor="middle" fill="#c084fc" font-family="sans-serif" font-weight="bold" font-size="13">ESP32 SoC Lab</text>
+
+  <rect x="530" y="160" width="190" height="42" rx="8" fill="#18181b" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="625" y="186" text-anchor="middle" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="13">802.11 / Wireshark</text>
+</svg>

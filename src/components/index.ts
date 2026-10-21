@@ -1,4 +1,3 @@
-// @ts-nocheck
 import {
   EarthCanvas,
   BallCanvas,
@@ -11,9 +10,10 @@ import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
 import Works from "./sections/Works";
-import Feedbacks from "./sections/Feedbacks";
+import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
+import { ProjectModal } from "./sections/ProjectModal";
 
 export {
   Hero,
@@ -22,9 +22,10 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
+  Certifications,
   Contact,
   CanvasLoader,
+  ProjectModal,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <circle cx="50" cy="50" r="46" fill="#1e1e24" stroke="#ee0000" stroke-width="4"/>
+  <path d="M50 20c-15 0-25 10-25 22 0 12 10 20 25 20s25-8 25-20c0-12-10-22-25-22zm10 18c4 0 7 3 7 7s-3 7-7 7-7-3-7-7 3-7 7-7z" fill="#ee0000"/>
+  <text x="50" y="82" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="12">RED HAT</text>
+</svg>

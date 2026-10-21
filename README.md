@@ -1,330 +1,151 @@
-# 3D Portfolio
+# Ajay Tandale — 3D Cloud & Linux Engineering Portfolio
 
-<!-- GitHub badges -->
+[![Linux](https://img.shields.io/badge/Linux-RHEL%209.x-ee0000?style=for-the-badge&logo=redhat&logoColor=white)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+[![Podman Containers](https://img.shields.io/badge/Containers-Podman-892ca0?style=for-the-badge&logo=podman&logoColor=white)](https://podman.io/)
+[![Linux RHEL](https://img.shields.io/badge/OS-RHEL%209.x-f59e0b?style=for-the-badge&logo=linux&logoColor=black)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+[![React 18](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL%203D-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-[![Latest release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?label=Latest%20release&style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Fork](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/commits)
-[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
+A production-grade, interactive 3D portfolio purpose-built for **Ajay Tandale**, customized and upgraded on the foundational 3D architecture of Adrian Hajdin / ladunjexa's developer portfolio.
 
-![demo](.github/README_ASSETS/3d-portfolio.png)
+Positioned for entry-level opportunities in:
+- **Cloud Engineering**
+- **Linux Systems Administration**
+- **DevOps & Infrastructure Automation**
+- **Containerization & Cloud-Native Technologies**
+- **Cloud Security & Infrastructure Hardening**
 
-[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
-[![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/ladunjexa/reactjs18-3d-portfolio?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-![Release](https://img.shields.io/github/release/ladunjexa/reactjs18-3d-portfolio.svg)
-![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)
-[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
+---
 
-## 🌐 Live Demo
+## 👤 Professional Profile & Source of Truth
 
-Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://reactjs18-3-d-portfolio.vercel.app/)
+- **Name**: Ajay Raju Tandale
+- **Primary Display Name**: Ajay Tandale
+- **Headline**: Cloud Engineer | Linux | Containers | Automation
+- **Rotating Focus**: Cloud Engineering · Linux Administration · DevOps & Automation · Containerization · Cloud Security
+- **Location**: India (Chhatrapati Sambhaji Nagar, Maharashtra)
+- **Academic Status**: B.Tech in Computer Science and Engineering — In Progress (Third year, fifth semester, expected 2027)
+- **Technical Diploma**: Diploma in Computer Engineering (Marathwada Institute of Technology, 2020–2023, 1st Rank in Inter-Departmental Technical Quiz)
+- **Email**: `ajaytandale8983@gmail.com`
+- **LinkedIn**: [linkedin.com/in/ajay-tandale-8030b8231](https://www.linkedin.com/in/ajay-tandale-8030b8231/)
+- **GitHub**: [github.com/ajju-py](https://github.com/ajju-py)
+- **Personal Website**: [ajaytandale.in](https://ajaytandale.in/)
+### Technical Coursework & Credentials
+1. **Linux Systems Administration & Security**
+   - Coursework: Red Hat Enterprise Linux 9.x Enterprise Administration Track
+   - Focus: System configuration, LVM storage, systemd services, firewalld, and SELinux enforcement
+2. **Containers & Cloud-Native Development**
+   - Coursework: Podman & OpenShift Container Curriculum
+   - Focus: Rootless containers, Containerfiles, persistent storage (:Z), and multi-container bridge networks
+3. **Networking and Web Technology**
+   - Issuer: Infosys Springboard (2025)
+   - Verification: Course Completion Record
+4. **Ansible Automation & Systems Management**
+   - Issuer: Red Hat Academy Curriculum (2025–2026)
+5. **Cybersecurity Professional Basic**
+   - Issuer: CSC Academy (2020)
 
-## 📝 Description
+---
 
-**3D Portfolio** is a well-designed and fully functional portfolio website that is built with
-React.js and Three.js. It is a fully responsive website that works well on all devices.
+## 🛠️ Technical Stack & Architecture
 
-<details><summary><b>Folder Structure</b></summary>
+- **Frontend Core**: React 18, TypeScript, React Router v6
+- **3D Graphics & WebGL**: Three.js, `@react-three/fiber`, `@react-three/drei`
+- **Animations & Physics**: Framer Motion, Maath, `react-parallax-tilt`
+- **Styling**: Tailwind CSS (JIT mode), custom dark theme tokens (`#050816`), Glassmorphism
+- **Bundler & Optimization**: Vite 5 with Rollup code-splitting chunks:
+  - `vendor-three`: Three.js and React Three Fiber rendering pipeline
+  - `vendor-react`: Core React runtime & router
+  - `vendor-motion`: Animation & mathematical utilities
+- **Attribution Foundation**: Cloned from [ladunjexa/reactjs18-3d-portfolio](https://github.com/ladunjexa/reactjs18-3d-portfolio.git) originally inspired by [Adrian Hajdin (JavaScript Mastery)](https://github.com/adrianhajdin).
 
-```bash
-reactjs18-3d-portfolio/
-├── src/
-├   ├── App.tsx
-├   ├── globals.css
-├   ├── main.tsx
-├   ├── vite.env.d.ts
-├   ├── components/
-├   ├   ├── atoms/
-├   ├   ├   └── Header.tsx
-├   ├   ├── canvas/
-├   ├   ├   ├── Ball.tsx
-├   ├   ├   ├── Computers.tsx
-├   ├   ├   ├── Earth.tsx
-├   ├   ├   ├── Stars.tsx
-├   ├   ├   └── index.ts
-├   ├   ├── layout/
-├   ├   ├   ├── Loader.tsx
-├   ├   ├   └── Navbar.tsx
-├   ├   ├── sections/
-├   ├   ├   ├── About.tsx
-├   ├   ├   ├── Contact.tsx
-├   ├   ├   ├── Experience.tsx
-├   ├   ├   ├── Feedbacks.tsx
-├   ├   ├   ├── Hero.tsx
-├   ├   ├   ├── Tech.tsx
-├   ├   ├   ├── Works.tsx
-├   ├   ├   └── page.tsx
-├   ├   └── index.ts
-├   ├── constants/
-├   ├   ├── config.ts
-├   ├   ├── styles.ts
-├   ├   └── index.ts
-├   ├── hoc/
-├   ├   ├── SectionWrapper.tsx
-├   ├   └── index.ts
-├   ├── utils/
-├   ├   └── motion.ts
-├   ├── types/
-├   ├   └── index.d.ts
-├   └── assets/
-├       ├── company/
-├       ├   └── [[...]].{svg,png}
-├       ├── tech/
-├       ├   └── [[...]].{svg,png}
-├       ├── [[...]].{svg,png}
-├       └── index.ts
-├── public/
-├   ├── desktop_pc
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── planet
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── logo.png
-├   └── logo.svg
-├── .env
-├── .eslintignore
-├── .eslintrc.cjs
-├── .gitignore
-├── .prettierignore
-├── .prettierrc.cjs
-├── index.html
-├── LICENSE
-├── README.md
-├── package.json
-├── postcss.config.cjs
-├── tailwind.config.cjs
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.js
-```
+---
 
-</details>
+## 🚀 Key Features
 
-## 📖 Table of Contents
+1. **Interactive 3D Workstation (Hero Section)**:
+   - High-fidelity 3D developer workstation model (`ComputersCanvas`) with orbit controls and custom cybernetic lighting.
+   - Built-in WebGL detection and resilient non-WebGL / mobile fallback card ensuring no blank screens.
+   - Dynamic rotating headline titles, live status badge (`Open to Cloud / Linux / DevOps Opportunities`), and direct resume download CTA.
 
-<details><summary>Table of Contents</summary>
+2. **Authentic About Section**:
+   - Grounded narrative detailing hands-on progression from Linux system administration to cloud infrastructure.
+   - Verified photograph of Ajay Tandale with location and Red Hat Cert ID metadata.
+   - 4 Core Engineering Pillar cards covering Linux Administration, Containers & Podman, Infrastructure Automation, and Cloud Practice & Security.
 
-- [Live Demo](#-live-demo)
-- [Description](#-description)
-- [Technologies Used](#-technologies-used)
-- [Get Started](#-get-started)
-  - [Prerequisites](#-prerequisites)
-  - [Installation and Run Locally](#-installation-and-run-locally)
-  - [Scripts](#-scripts)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
-- [Acknowledgements](#-acknowledgements)
-- [References](#-references)
-- [Contact Us](#-contact-us)
-- [License](#-license)
+3. **Recruiter-Friendly Categorized Skills**:
+   - 6 categorized skill areas: Linux & Operating Systems, Containers & Cloud-Native, Cloud & Infrastructure (marked as Active Learning), Automation & Development Tools, Networking & Security, and Web Development.
+   - Domain filter tabs allowing recruiters to scan specific competencies immediately.
+   - 3D floating Ball decals (`BallCanvas`) for core technologies (RHEL, AWS, Podman, Terraform, Ansible, Bash, Docker, Git, etc.).
 
-</details>
+4. **Practical Experience & Technical Development Timeline**:
+   - Replaced generic corporate job templates with an authentic timeline covering Red Hat certifications, hands-on lab milestones, and academic progression.
 
-## ✨ Technologies Used
+5. **Featured Technical Projects & Deep-Dive Modal**:
+   - **Local AWS Infrastructure Lab** (Cloud Engineering · Featured): Reproducible local AWS-compatible experimentation environment using AWS CLI, S3 bucket `ajay-aws-practice-001`, Terraform HCL, and Python Boto3 with documented emulator parity limits.
+   - **CloudOps Sentinel — Infrastructure Audit & Validation** (Cloud Security): Security baseline audit checking container socket isolation, IAM evaluation flags, and local state file security with 21 automated passing test assertions.
+   - **Linux Container Operations Lab** (Containers & Linux): Hands-on container environment using rootless Podman, custom Containerfiles, persistent storage volumes with SELinux context labeling (`:Z`), and isolated bridge networks.
+   - **Building Passport — Ghar Ki Pehchan** (Full-Stack Prototype): Role-based building information management platform with Next.js, TypeScript, MongoDB, JWT authentication, and bcryptjs password security.
+   - **Wireless Networking & Protocol Lab (ESP32)** (Hardware Security Lab): Controlled research testbed capturing raw 802.11 management frames and analyzing WPA3 Protected Management Frames (PMF / 802.11w) in Wireshark.
+   - Interactive `ProjectModal` allowing recruiters to inspect the Problem, Ajay's Hands-On Contribution, Key Implementation Details, Documented Limitations, and Lessons Learned.
 
-<details><summary><b>3D Portfolio</b> is built using the following technologies:</summary>
+6. **Verified Credentials & Coursework**:
+   - Highlighting technical coursework in enterprise Linux, rootless containers with Podman, networking, and automation.
 
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that
-  compiles to plain JavaScript.
-- [Vite](https://vitejs.dev/): Vite is a build tool that aims to provide a faster and leaner
-  development experience for modern web projects.
-- [React.js](https://reactjs.org/): React is a free and open-source front-end JavaScript library for
-  building user interfaces or UI components.
-- [Three.js](https://threejs.org/): Three.js is a cross-browser JavaScript library and application
-  programming interface used to create and display animated 3D computer graphics in a web browser
-  using WebGL.
-- [Framer Motion](https://www.framer.com/motion/): Framer Motion is a production-ready motion
-  library for React.
-- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS is a utility-first CSS framework for
-  rapidly building custom user interfaces.
-- [ESLint](https://eslint.org/): ESLint is a static code analysis tool for identifying problematic
-  patterns found in JavaScript code.
-- [Prettier](https://prettier.io/): Prettier is an opinionated code formatter.
-- [Vercel](https://vercel.com/): Vercel is a cloud platform for frontend developers, providing the
-  frameworks, workflows, and infrastructure to build a faster, more personalized Web.
+7. **Contact Section with 3D Earth & Direct Email**:
+   - Rotating 3D Planet Earth model with starry cosmic background.
+   - One-click email copying for `ajaytandale8983@gmail.com`.
+   - Contact form with direct `mailto:` fallback to ensure messages are never lost.
 
-</details><br/>
+8. **Direct Resume Download**:
+   - Verified link downloading `Ajay_Tandale_Resume.pdf` (686 KB authentic resume) from the navigation bar, hero section, and footer.
 
-[![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
+---
 
-## 🧰 Get Started
+## 💻 Local Development & Build
 
-To get this project up and running in your development environment, follow these step-by-step
-instructions.
+### Prerequisites
+- Node.js 18+ (tested on Node v20/v24)
+- npm or yarn
 
-### 📋 Prerequisites
-
-In order to install and run this project locally, you would need to have the following installed on
-your local machine.
-
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/get-npm)
-- [Git](https://git-scm.com/downloads)
-
-### ⚙️ Installation and Run Locally
-
-**Step 0:**
-
-Note :bangbang: the application uses EmailJS in order to send emails using client-side, therefore,
-you need to create EmailJS account [here](https://emailjs.com/) and sets the
-`VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAIL_JS_ACCESS_TOKEN` environment
-variables in `.env` file.
-
-**Step 1:**
-
-Download or clone this repo by using the link below:
-
-```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
-```
-
-**Step 2:**
-
-Execute the following command in the root directory of the downloaded repo in order to install
-dependencies:
-
+### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-**Step 3:**
-
-Execute the following command in order to run the development server locally:
-
+### 2. Run Local Development Server
 ```bash
 npm run dev
 ```
+The application will launch at `http://localhost:5173/` (or the next available port).
 
-**Step 4:**
-
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
-
-### 📜 Scripts
-
-All scripts are defined in the `package.json` file. Here is a list of all scripts:
-
-| Script             | Action                                      |
-| :----------------- | :------------------------------------------ |
-| `npm install`      | Installs dependencies                       |
-| `npm run dev`      | Starts local dev server at `localhost:5137` |
-| `npm run build`    | Build your production site to `./dist/`     |
-| `npm run preview`  | Boot up a local static web server           |
-| `npm run lint`     | Run ESLint                                  |
-| `npm run ts:check` | Perform type-checking                       |
-
-## 🔒 Environment Variables
-
-Environment variables[^3] can be used for configuration. They must be set before running the app.
-
-> [Environment variables](https://en.wikipedia.org/wiki/Environment_variable) are variables that are
-> set in the operating system or shell, typically used to configure programs.
-
-**React.js 18 3D Portfolio** uses [EmailJS](https://www.emailjs.com/) as external service. You need
-to create an account and get the required credentials to run the app.
-
-Create a `.env` file in the root directory of the project and add the following environment
-variables:
-
-```env
-VITE_EMAILJS_SERVICE_ID=<VITE_EMAILJS_SERVICE_ID>
-VITE_EMAILJS_TEMPLATE_ID=<VITE_EMAILJS_TEMPLATE_ID>
-VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN>
-```
-
-## 🚀 Deployment
-
-#### Deploy to production (manual)
-
-You can create an optimized production build with the following command:
-
+### 3. Build for Production
 ```bash
 npm run build
 ```
+Generates a minified, code-split production bundle inside the `dist/` directory.
 
-#### Deploy on Vercel (recommended)
+### 4. Preview Production Build
+```bash
+npm run preview
+```
 
-The easiest way to deploy this Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
+## ⚙️ Content & Configuration Architecture
 
-#### Deploy on Netlify
+All portfolio personal information and links are centralized for easy maintenance:
+- **General Configuration**: `src/constants/config.ts` (Name, headlines, eyebrow, social links, contact form labels)
+- **Technical Content**: `src/constants/index.ts` (Categorized skills, 3D ball technologies, timeline entries, projects with deep-dive metadata, certifications with Credly links)
+- **Resume File**: Located at `public/Ajay_Tandale_Resume.pdf`
+- **Profile Photo**: Located at `src/assets/profile.png` and `public/profile.png`
+- **3D Models**: Located in `public/desktop_pc/` and `public/planet/`
 
-You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
+---
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
+## 📜 Attribution & License
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🔧 Contributing
-
-[![contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and
-create. Any contributions you make are **greatly appreciated**.
-
-To fix a bug or enhance an existing module, follow these steps:
-
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request 🎉
-
-### 📩 Bug / Feature Request
-
-If you find a bug (failure of a module to execute its intended function), kindly open an issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new) by including the issue with a
-title and clear description.
-
-If you'd like to request a new function, feel free to do so by opening an issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new). Please include sample
-queries and their corresponding results.
-
-## 💎 Acknowledgements
-
-I'd like to express my gratitude to the following people who helped me with this project and made it
-possible:
-
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Three.js](https://threejs.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt)
-- [Maath](https://www.npmjs.com/package/maath)
-- [EmailJS](https://www.emailjs.com/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Vercel](https://vercel.com/)
-- [JavaScript Mastery](https://www.jsmastery.pro/)
-
-## 📞 Contact Us
-
-[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=social&logo=telegram&logoColor=000000)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-ladunjexa-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/users/827996364331810816)
-
-<!-- [![Twitter](https://img.shields.io/twitter/follow/ladunjexa.svg?style=social)](https://twitter.com/intent/follow?screen_name=ladunjexa) -->
-
-## 📋 License
-
-**Three.js 3D Portfolio** is open source software
-[licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
-[LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
+- **License**: MIT License (Preserved from original repository).
+- **Original 3D Template Author**: [ladunjexa](https://github.com/ladunjexa/reactjs18-3d-portfolio) and [Adrian Hajdin (JavaScript Mastery)](https://github.com/adrianhajdin).
+- **Customized for**: Ajay Raju Tandale — Cloud & Linux Engineering Portfolio.

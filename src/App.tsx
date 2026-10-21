@@ -1,17 +1,18 @@
 import { BrowserRouter } from "react-router-dom";
+import { useEffect } from "react";
 
 import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  Certifications,
   Hero,
   Navbar,
   Tech,
   Works,
   StarsCanvas,
 } from "./components";
-import { useEffect } from "react";
+import Footer from "./components/layout/Footer";
 import { config } from "./constants/config";
 
 const App = () => {
@@ -23,20 +24,21 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="bg-primary relative z-0">
-        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+      <div className="bg-[#050816] text-white relative z-0 selection:bg-cyan-500 selection:text-black">
+        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat relative">
           <Navbar />
           <Hero />
         </div>
         <About />
-        <Experience />
         <Tech />
+        <Experience />
         <Works />
-        <Feedbacks />
+        <Certifications />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
